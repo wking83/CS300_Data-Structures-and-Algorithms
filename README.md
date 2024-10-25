@@ -4,3 +4,17 @@ Next, we will look at the Binary Search Tree. The BST when it comes to reading a
 Lastly, we have the Hash Table, This also takes on a O(1) read and parsing time. Insertion can be extremely efficient with a O(1) time if no hash collisions. It is possible with many hash collisions for the program to degrade down to a O(n) speed. Memory usage can be a little higher due to overhead and collision resolution, but still at O(n) usage. 
 
 In the end I will have to recommend the Hash Table as the most useful candidate for the course management system. The average search and insertion time of O(1) sets it apart from the other structures. At worst it still will be just as last as a vector even with many collisions. These collisions can be mitigated with specific collision techniques. The simplicity of the Hash Table also gives it a major advantage over the binary tree. 
+
+What was the problem you were solving in the projects for this course?
+  In this project we were making a course management program that could be used for advising. The program had to load, parse, and display information with prerequisites. 
+
+How did you approach the problem? Consider why data structures are important to understand.
+  I had to look at different data structures that included vectors, binary search trees, and hash tables. Each structure was then organized into pluses and minuses. I decided to use hash tables because of its efficiency when inserting and looking up detail which included prerequisites and course numbers. 
+  
+How did you overcome any roadblocks you encountered while going through the activities or project?
+  My major roadblock came with parsing the information and making sure the data was received and stored correctly. I implemented helper functions to validate data and to ensure easier troubleshooting. Constantly making sure that the data was linked within the proper structure. 
+  
+How has your work on this project expanded your approach to designing software and developing programs?
+  The most important thing I learned was evaluating when to use certain data structures and how to evaluate which one is best for certain situations. The process in breaking down each part of the programs structure ensured that the software design was well written and efficient. 
+How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?
+  The use of comments and breaking down the functions with clear names made the code clean and easily readable. You also want to keep the functions nondependent on other functions. That was if you have errors, troubleshooting can be easily implemented with disrupting the rest of the code. This also allows the code to be adaptable for further changes down the road.
